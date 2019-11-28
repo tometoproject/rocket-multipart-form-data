@@ -16,7 +16,7 @@ repository = "magiclen/rocket-multipart-form-data"
 branch = "master"
 
 [dependencies]
-rocket = "0.4.2"
+rocket = { git = "https://github.com/SergioBenitez/Rocket", branch = "master" }
 mime = "0.3.12"
 multipart = {version = "0.16.1", default-features = false, features = ["server"]}
 chrono = "0.4.6"
